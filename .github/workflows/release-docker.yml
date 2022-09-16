@@ -29,4 +29,4 @@ jobs:
       - name: "Authorize to docker hub"
         run: echo ${{ secrets.DOCKER_TOKEN }} | docker login --username ziemniakoss --password-stdin
       - name: "Push tags to docker"
-        run: git push origin -a ziemniakoss/mfc
+        run: docker push -a ziemniakoss/mfc
