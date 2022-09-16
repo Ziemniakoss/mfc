@@ -1,0 +1,20 @@
+name: Release | Docker
+on:
+  workflow_dispatch:
+    inputs:
+      MFC_VERSION:
+        required: true
+        type: string
+        description: Version of @ziemniakoss/mfc to use
+      IMAGE_VERSION:
+        required: true
+        type: string
+        description: Created image tag
+jobs:
+  deploy_to_docker:
+    environment: docker
+    runs-on: ubuntu-22.04
+    name: Deploy to docker
+    steps:
+      - name: "Build image"
+        run:  echo ${{ IMAGE_VERSION }}
