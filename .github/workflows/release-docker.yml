@@ -27,6 +27,6 @@ jobs:
           VERSION: ${{ github.event.inputs.IMAGE_VERSION }}
         run: docker tag ziemniakoss/mfc:latest ziemniakoss/mfc:$VERSION
       - name: "Authorize to docker hub"
-        run: echo $${{ secrets.DOCKER_TOKEN }} | docker login --username ziemniakoss --password-stdin
+        run: echo ${{ secrets.DOCKER_TOKEN }} | docker login --username ziemniakoss --password-stdin
       - name: "Push tags to docker"
         run: git push origin -a ziemniakoss/mfc
