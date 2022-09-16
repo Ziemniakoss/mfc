@@ -17,4 +17,4 @@ jobs:
     name: Deploy to docker
     steps:
       - name: "Build image"
-        run:  echo ${{ IMAGE_VERSION }}
+        run:  echo ${{ github.event.inputs.IMAGE_VERSION }}
