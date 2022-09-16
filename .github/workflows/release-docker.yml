@@ -17,7 +17,7 @@ jobs:
     name: Deploy to docker
     steps:
       - name: "Build image"
-        run: docker build --build-arg mfc_version=${{ github.event.inputs.MFC_VERSION }} -t ziemniakoss/mfc:latest
+        run: docker build --build-arg mfc_version=${{ github.event.inputs.MFC_VERSION }} -t ziemniakoss/mfc:latest .
       - name: "Tag version"
         run: docker tag ziemniakoss/mfc:latest ziemniakoss/mfc:$${{ github.event.inputs.IMAGE_VERSION }}
       - name: "Authorize to docker hub"
