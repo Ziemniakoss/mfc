@@ -16,6 +16,8 @@ jobs:
     runs-on: ubuntu-22.04
     name: Deploy to docker
     steps:
+      - name: "Checkout git"
+        uses: actions/checkout@v2
       - name: "Build image"
         run: docker build --build-arg mfc_version=${{ github.event.inputs.MFC_VERSION }} -t ziemniakoss/mfc:latest .
       - name: "Tag version"
