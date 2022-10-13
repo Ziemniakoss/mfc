@@ -12,6 +12,7 @@
         "@oclif/core": "^1.13.10",
         "@oclif/plugin-help": "^5",
         "@oclif/plugin-plugins": "^2.0.1",
+        "@salesforce/plugin-apex": "^1.3.0",
         "@salesforce/plugin-auth": "^2.2.5",
         "@salesforce/plugin-source": "^2.0.13",
         "sfdx-ci-summary-creator": "^1.4.2",
@@ -490,9 +491,9 @@
       }
     },
     "node_modules/@oclif/core": {
-      "version": "1.16.1",
-      "resolved": "https://registry.npmjs.org/@oclif/core/-/core-1.16.1.tgz",
-      "integrity": "sha512-MfzgqcWzWymndd934pd52JAwy0RIgWWYnC0Ed7bxUVYWF4HFb3KmsE7x9/QBP9392Q14vxXi2GNLHboM/5vaDA==",
+      "version": "1.16.7",
+      "resolved": "https://registry.npmjs.org/@oclif/core/-/core-1.16.7.tgz",
+      "integrity": "sha512-r6FUZVp5ID6lQHGUbDhFYng+Q6xQtp36VSRnQFMh9Bay5+Gwg4+MzxfgW+CAGhPfPk45iu+/PvYaVayo4Tb0Dg==",
       "dependencies": {
         "@oclif/linewrap": "^1.0.0",
         "@oclif/screen": "^3.0.2",
@@ -840,9 +841,9 @@
       }
     },
     "node_modules/@salesforce/apex-node": {
-      "version": "1.2.0",
-      "resolved": "https://registry.npmjs.org/@salesforce/apex-node/-/apex-node-1.2.0.tgz",
-      "integrity": "sha512-m+lvQm1aX1xn8lT8rRwpiarOn2+1Ft82ZIawp+2aMfHSlZ/thCcw9zTxACNnQDpIGgxx7I1i9eZEJ8XQzLcoPQ==",
+      "version": "1.3.0",
+      "resolved": "https://registry.npmjs.org/@salesforce/apex-node/-/apex-node-1.3.0.tgz",
+      "integrity": "sha512-NDu63KtL0JXgaIlHg52Z5F5rra0EFSN0XP8iszpomATVPCunORySCH0zi20ZzRBGyy/vdlFsOGFr/xIYWAcW6A==",
       "dependencies": {
         "@salesforce/core": "^3.23.3",
         "@types/istanbul-reports": "^3.0.1",
@@ -1055,6 +1056,27 @@
         "shx": "^0.3.3",
         "tslib": "^2.2.0"
       }
+    },
+    "node_modules/@salesforce/plugin-apex": {
+      "version": "1.3.0",
+      "resolved": "https://registry.npmjs.org/@salesforce/plugin-apex/-/plugin-apex-1.3.0.tgz",
+      "integrity": "sha512-fHYPleMcKTJGfSiEFkNH0uCsgAZjFa1Aj/rOesE7U4AH5dkZSUTpWMAPClZWlZ7WK2wn+U7kdfyKj5yq+vr0Tg==",
+      "dependencies": {
+        "@oclif/core": "^1.16.4",
+        "@salesforce/apex-node": "1.3.0",
+        "@salesforce/command": "^5.1.0",
+        "@salesforce/core": "^3.23.3",
+        "chalk": "^4.1.0",
+        "tslib": "^1"
+      },
+      "engines": {
+        "node": ">=14.14.0"
+      }
+    },
+    "node_modules/@salesforce/plugin-apex/node_modules/tslib": {
+      "version": "1.14.1",
+      "resolved": "https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz",
+      "integrity": "sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg=="
     },
     "node_modules/@salesforce/plugin-auth": {
       "version": "2.2.5",
@@ -9987,9 +10009,9 @@
       }
     },
     "@oclif/core": {
-      "version": "1.16.1",
-      "resolved": "https://registry.npmjs.org/@oclif/core/-/core-1.16.1.tgz",
-      "integrity": "sha512-MfzgqcWzWymndd934pd52JAwy0RIgWWYnC0Ed7bxUVYWF4HFb3KmsE7x9/QBP9392Q14vxXi2GNLHboM/5vaDA==",
+      "version": "1.16.7",
+      "resolved": "https://registry.npmjs.org/@oclif/core/-/core-1.16.7.tgz",
+      "integrity": "sha512-r6FUZVp5ID6lQHGUbDhFYng+Q6xQtp36VSRnQFMh9Bay5+Gwg4+MzxfgW+CAGhPfPk45iu+/PvYaVayo4Tb0Dg==",
       "requires": {
         "@oclif/linewrap": "^1.0.0",
         "@oclif/screen": "^3.0.2",
@@ -10294,9 +10316,9 @@
       }
     },
     "@salesforce/apex-node": {
-      "version": "1.2.0",
-      "resolved": "https://registry.npmjs.org/@salesforce/apex-node/-/apex-node-1.2.0.tgz",
-      "integrity": "sha512-m+lvQm1aX1xn8lT8rRwpiarOn2+1Ft82ZIawp+2aMfHSlZ/thCcw9zTxACNnQDpIGgxx7I1i9eZEJ8XQzLcoPQ==",
+      "version": "1.3.0",
+      "resolved": "https://registry.npmjs.org/@salesforce/apex-node/-/apex-node-1.3.0.tgz",
+      "integrity": "sha512-NDu63KtL0JXgaIlHg52Z5F5rra0EFSN0XP8iszpomATVPCunORySCH0zi20ZzRBGyy/vdlFsOGFr/xIYWAcW6A==",
       "requires": {
         "@salesforce/core": "^3.23.3",
         "@types/istanbul-reports": "^3.0.1",
@@ -10472,6 +10494,26 @@
         "@salesforce/ts-types": "^1.5.20",
         "shx": "^0.3.3",
         "tslib": "^2.2.0"
+      }
+    },
+    "@salesforce/plugin-apex": {
+      "version": "1.3.0",
+      "resolved": "https://registry.npmjs.org/@salesforce/plugin-apex/-/plugin-apex-1.3.0.tgz",
+      "integrity": "sha512-fHYPleMcKTJGfSiEFkNH0uCsgAZjFa1Aj/rOesE7U4AH5dkZSUTpWMAPClZWlZ7WK2wn+U7kdfyKj5yq+vr0Tg==",
+      "requires": {
+        "@oclif/core": "^1.16.4",
+        "@salesforce/apex-node": "1.3.0",
+        "@salesforce/command": "^5.1.0",
+        "@salesforce/core": "^3.23.3",
+        "chalk": "^4.1.0",
+        "tslib": "^1"
+      },
+      "dependencies": {
+        "tslib": {
+          "version": "1.14.1",
+          "resolved": "https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz",
+          "integrity": "sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg=="
+        }
       }
     },
     "@salesforce/plugin-auth": {
