@@ -8,7 +8,7 @@ ENV MFC_VERSION=$mfc_version
 RUN pnpm i -g --prod @ziemniakoss/mfc@$MFC_VERSION
 
 FROM alpine:3.16
-RUN apk add nodejs
+RUN apk add nodejs git
 COPY --from=installation /usr/bin/pnpm /usr/bin/pnpm
 COPY --from=installation /root/.local/share/pnpm  /root/.local/share/pnpm
 ENV PATH=$PATH:/usr/bin/pnpm
