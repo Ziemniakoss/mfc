@@ -13,3 +13,8 @@ CLI for Salesforce without plugins that are not needed in CI environments, like 
 - [@salesforce/plugin-source](https://www.npmjs.com/package/@salesforce/plugin-source)
 - [sfdx-ci-summary-creator](https://www.npmjs.com/package/sfdx-ci-summary-creator)
 - [sfdx-metadata-splitter](https://www.npmjs.com/package/sfdx-metadata-splitter)
+
+## Other installed programs
+
+- node
+- git
