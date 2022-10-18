@@ -1,6 +1,6 @@
 {
   "name": "@ziemniakoss/mfc",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "description": "Minimal force client for CI purposes",
   "author": "Ziemniakoss",
   "bin": {
