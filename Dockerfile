@@ -11,8 +11,8 @@ RUN find /root/.local/share/pnpm -iname "*.ts" -delete
 RUN find /root/.local/share/pnpm -iname "README.md" -delete
 RUN find /root/.local/share/pnpm -name "package.json" -exec node /compressPackageJsons.js {} \;
 
-FROM node:16-alpine3.16
-RUN apk add git
+FROM alpine:3.16
+RUN apk add nodejs git
 COPY --from=installation /usr/bin/pnpm /usr/bin/pnpm
 COPY --from=installation /root/.local/share/pnpm  /root/.local/share/pnpm
 ENV PATH=$PATH:/usr/bin/pnpm
