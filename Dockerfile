@@ -16,6 +16,5 @@ RUN apk add git
 COPY --from=installation /usr/bin/pnpm /usr/bin/pnpm
 COPY --from=installation /root/.local/share/pnpm  /root/.local/share/pnpm
 ENV PATH=$PATH:/usr/bin/pnpm
-COPY docker_scripts/sfdx /bin/sfdx
-RUN chmod +x /bin/sfdx
+RUN ln $(which mfc) /bin/sfdx
 CMD ["sh"]
