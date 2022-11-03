@@ -7,8 +7,7 @@ ENV PATH=$PATH:/usr/bin/pnpm
 ARG mfc_version
 ENV MFC_VERSION=$mfc_version
 RUN pnpm i -g --prod @ziemniakoss/mfc@$MFC_VERSION
-RUN find /root/.local/share/pnpm -iname "*.ts" -delete
-RUN find /root/.local/share/pnpm -iname "README.md" -delete
+RUN find /root/.local/share/pnpm \( -iname "README.md" -o -iname "*.ts" -o -iname "*.js.map" \) -delete
 RUN find /root/.local/share/pnpm -name "package.json" -exec node /compressPackageJsons.js {} \;
 
 FROM alpine:3.16
