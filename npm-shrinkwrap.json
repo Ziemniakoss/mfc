@@ -9,11 +9,12 @@
       "version": "1.7.1",
       "license": "BSD-3-Clause",
       "dependencies": {
-        "@oclif/core": "^1.19.0",
+        "@oclif/core": "^1.20.2",
         "@salesforce/plugin-apex": "^1.3.0",
-        "@salesforce/plugin-auth": "^2.2.15",
-        "@salesforce/plugin-community": "^2.0.10",
-        "@salesforce/plugin-source": "^2.0.25",
+        "@salesforce/plugin-auth": "^2.2.19",
+        "@salesforce/plugin-community": "^2.0.14",
+        "@salesforce/plugin-org": "^2.2.11",
+        "@salesforce/plugin-source": "^2.3.0",
         "sfdx-ci-summary-creator": "^1.4.3",
         "sfdx-metadata-splitter": "^2.1.3"
       },
@@ -491,9 +492,9 @@
       }
     },
     "node_modules/@oclif/core": {
-      "version": "1.19.0",
-      "resolved": "https://registry.npmjs.org/@oclif/core/-/core-1.19.0.tgz",
-      "integrity": "sha512-4R087E3TAG6Q9cvr+4wnlryHbciioXkZmUF/Qmc08dReoFus1BIfwtR5kUa/thNmQBw5oeGnrxnl9yA/TaxAmA==",
+      "version": "1.20.2",
+      "resolved": "https://registry.npmjs.org/@oclif/core/-/core-1.20.2.tgz",
+      "integrity": "sha512-c6CpDbDPS9UuKwGoajzsjrjfnwQywWEV3WI5FDvb87h0/WW2tGf1QwHUWgdKOojafEcMAa9DnP5j+mXdUTtpCg==",
       "dependencies": {
         "@oclif/linewrap": "^1.0.0",
         "@oclif/screen": "^3.0.2",
@@ -895,13 +896,13 @@
       }
     },
     "node_modules/@salesforce/command": {
-      "version": "5.2.13",
-      "resolved": "https://registry.npmjs.org/@salesforce/command/-/command-5.2.13.tgz",
-      "integrity": "sha512-+7+ZWjB3kQqJtcJpqiSrhW8mclgEmy+d26kDch0YUCxhUvoWQjCk23D4jDkZrFPJrv7sudeQXLSosqEIGppF3w==",
+      "version": "5.2.18",
+      "resolved": "https://registry.npmjs.org/@salesforce/command/-/command-5.2.18.tgz",
+      "integrity": "sha512-kG6lZHZ6fzihTDCZnsEG65Tv9aXcCqypUBaKKpOHo1vD54tCH1w905YAoncJVp76jZFMh6CbOmPhssk1psVY+A==",
       "dependencies": {
-        "@oclif/core": "^1.18.0",
-        "@oclif/test": "^2.2.0",
-        "@salesforce/core": "^3.31.9",
+        "@oclif/core": "^1.20.0",
+        "@oclif/test": "^2.2.4",
+        "@salesforce/core": "^3.31.17",
         "@salesforce/kit": "^1.6.1",
         "@salesforce/ts-types": "^1.5.21",
         "chalk": "^2.4.2"
@@ -975,9 +976,9 @@
       }
     },
     "node_modules/@salesforce/core": {
-      "version": "3.31.12",
-      "resolved": "https://registry.npmjs.org/@salesforce/core/-/core-3.31.12.tgz",
-      "integrity": "sha512-vkH41UlNvbnpqHcLu31fnq1UmeG8ZUGlqQYYhZGKpKe8eczWu52h5DdE61Bm32bwAzR+aJx4nvE6RIVZvPZlrw==",
+      "version": "3.31.17",
+      "resolved": "https://registry.npmjs.org/@salesforce/core/-/core-3.31.17.tgz",
+      "integrity": "sha512-rn3AYyePp3m1+IH+KVi+DWwMPcAPDYFiUxyJLh+Jr2hNj9i79eQBcUix6wunK3HaVz0N6Tm5FGIpjqfEVsU0cA==",
       "dependencies": {
         "@salesforce/bunyan": "^2.0.0",
         "@salesforce/kit": "^1.7.0",
@@ -1027,11 +1028,11 @@
       "integrity": "sha512-NM8/P9n3XjXhIZn1lLhkFaACTOURQXjWhV4BA/RnOv8xvgqtqpAX9IO4mRQxSx1Rlo4tqzeqb0sOlruaOy3dug=="
     },
     "node_modules/@salesforce/kit": {
-      "version": "1.7.0",
-      "resolved": "https://registry.npmjs.org/@salesforce/kit/-/kit-1.7.0.tgz",
-      "integrity": "sha512-AxJi7W9skYEVQrZMGyWtG3xOOLzdRu7638Hlea3gtPdMpMRc0aB1Nvpg7Ru+VLtULNhXnnQ3nXesDl0d2TA04w==",
+      "version": "1.7.1",
+      "resolved": "https://registry.npmjs.org/@salesforce/kit/-/kit-1.7.1.tgz",
+      "integrity": "sha512-XbLtEgMNBGZqtY/OldEru+LzASS3o37MZ6eNlSG19eAroGqFdlr4pzZUD/UaWSt6E0s0arj4IwAP5/hQLbrBZw==",
       "dependencies": {
-        "@salesforce/ts-types": "^1.5.21",
+        "@salesforce/ts-types": "^1.7.0",
         "shx": "^0.3.3",
         "tslib": "^2.2.0"
       }
@@ -1058,12 +1059,12 @@
       "integrity": "sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg=="
     },
     "node_modules/@salesforce/plugin-auth": {
-      "version": "2.2.15",
-      "resolved": "https://registry.npmjs.org/@salesforce/plugin-auth/-/plugin-auth-2.2.15.tgz",
-      "integrity": "sha512-9SrG7WnaG6M8zhM4O6cDYul/wszSPVWmWMtTj4uVb5kXSeCLQINGVt0WsZMuTjMUQlceIoxe0CQ6hfoWSSrIZA==",
+      "version": "2.2.19",
+      "resolved": "https://registry.npmjs.org/@salesforce/plugin-auth/-/plugin-auth-2.2.19.tgz",
+      "integrity": "sha512-TxKxDOmakZYYXq9stgjDbtbpVr4T4MmWjJD5J5FLv2vtOduoepSdE/gzKhET/JQgZiUzpiwEIcQrXIqXARkfNg==",
       "dependencies": {
-        "@oclif/core": "^1.18.0",
-        "@salesforce/command": "^5.2.13",
+        "@oclif/core": "^1.20.0",
+        "@salesforce/command": "^5.2.17",
         "@salesforce/core": "^3.31.10",
         "@salesforce/kit": "^1.7.0",
         "chalk": "^4.1.2",
@@ -1105,31 +1106,63 @@
       }
     },
     "node_modules/@salesforce/plugin-community": {
-      "version": "2.0.10",
-      "resolved": "https://registry.npmjs.org/@salesforce/plugin-community/-/plugin-community-2.0.10.tgz",
-      "integrity": "sha512-UaYj/+EzxSs2QcpWe3PTKBpBPJMDhUG0BJdb3vzlvYiryyKOpZgVuoEkgzZoWcMwFq2n+vwhvldsWw7FsopyKQ==",
+      "version": "2.0.14",
+      "resolved": "https://registry.npmjs.org/@salesforce/plugin-community/-/plugin-community-2.0.14.tgz",
+      "integrity": "sha512-JxwBC+KuoO2dIftde54ycRoaVsqlCrDvCMeXnjrxqBaXOFqespTIVoOPXfBK0+C8niZH00AxlYWwVNgVi/eoCQ==",
       "dependencies": {
-        "@oclif/core": "^1.18.0",
-        "@salesforce/command": "^5.2.12",
-        "@salesforce/core": "^3.31.10",
+        "@oclif/core": "^1.19.1",
+        "@salesforce/command": "^5.2.13",
+        "@salesforce/core": "^3.31.17",
         "tslib": "^2"
       },
       "engines": {
         "node": ">=14.0.0"
       }
     },
+    "node_modules/@salesforce/plugin-org": {
+      "version": "2.2.11",
+      "resolved": "https://registry.npmjs.org/@salesforce/plugin-org/-/plugin-org-2.2.11.tgz",
+      "integrity": "sha512-IAmUVMhL4MV/yRGKJKotSv6SnNFoh40ySamYKdb68U2/HV8CPYIocSxXv1458bYr9AZ3F9gXof9SU7AtrHYM5g==",
+      "dependencies": {
+        "@oclif/core": "^1.20.0",
+        "@salesforce/command": "^5.2.12",
+        "@salesforce/core": "^3.31.17",
+        "@salesforce/kit": "^1.6.1",
+        "open": "8.4.0",
+        "tslib": "^2"
+      },
+      "engines": {
+        "node": ">=14.0.0"
+      }
+    },
+    "node_modules/@salesforce/plugin-org/node_modules/open": {
+      "version": "8.4.0",
+      "resolved": "https://registry.npmjs.org/open/-/open-8.4.0.tgz",
+      "integrity": "sha512-XgFPPM+B28FtCCgSb9I+s9szOC1vZRSwgWsRUA5ylIxRTgKozqjOCrVOqGsYABPYK5qnfqClxZTFBa8PKt2v6Q==",
+      "dependencies": {
+        "define-lazy-prop": "^2.0.0",
+        "is-docker": "^2.1.1",
+        "is-wsl": "^2.2.0"
+      },
+      "engines": {
+        "node": ">=12"
+      },
+      "funding": {
+        "url": "https://github.com/sponsors/sindresorhus"
+      }
+    },
     "node_modules/@salesforce/plugin-source": {
-      "version": "2.0.25",
-      "resolved": "https://registry.npmjs.org/@salesforce/plugin-source/-/plugin-source-2.0.25.tgz",
-      "integrity": "sha512-X68CreUcEcnplprWOlrtnDyKkILY3GJLZU++2UGvK4Uo8ayTUrQ4odG6dmT8wkEnskgMVr58GtrC4L1EOoDFgw==",
+      "version": "2.3.0",
+      "resolved": "https://registry.npmjs.org/@salesforce/plugin-source/-/plugin-source-2.3.0.tgz",
+      "integrity": "sha512-rVTdsjVCIBb3iD82aDgs65qSnwSBjwu30IayNZpeXAoS3fZCUttUoaKWQiZA7RmfT79ubuc6N2IJWNCfImz9Ew==",
       "dependencies": {
         "@oclif/core": "^1.18.0",
         "@oclif/plugin-help": "^3.3.1",
         "@salesforce/apex-node": "^1.3.0",
-        "@salesforce/command": "^5.2.1",
+        "@salesforce/command": "^5.2.13",
         "@salesforce/core": "^3.26.2",
-        "@salesforce/kit": "^1.6.0",
-        "@salesforce/source-deploy-retrieve": "^7.0.1",
+        "@salesforce/kit": "^1.7.1",
+        "@salesforce/source-deploy-retrieve": "^7.5.0",
         "@salesforce/source-tracking": "^2.2.10",
         "chalk": "^4.1.2",
         "got": "^11.8.3",
@@ -1199,25 +1232,45 @@
       "integrity": "sha512-XWohlOT2oQDqAJH00OXS3f2MGjkwZ6pr4emnnkHSQbg7UdGW0rvGpEnRKqBbDUfZ4K5YKSo9Gj216ZtaP3JLXg=="
     },
     "node_modules/@salesforce/source-deploy-retrieve": {
-      "version": "7.0.1",
-      "resolved": "https://registry.npmjs.org/@salesforce/source-deploy-retrieve/-/source-deploy-retrieve-7.0.1.tgz",
-      "integrity": "sha512-gvgq/ymdfz+CnHWVcs6p9h+GT9MKUI12Kdis8MxZ500mcuKzoCysIrWeZhaHAobroXNO9uxYf3hPOxBaXKQ6UQ==",
+      "version": "7.5.1",
+      "resolved": "https://registry.npmjs.org/@salesforce/source-deploy-retrieve/-/source-deploy-retrieve-7.5.1.tgz",
+      "integrity": "sha512-qAPR4eJxjRhumeM0ZWRHhHzJ17HL8DwMSj4gpFEF5jMb6r8ynzGpJv3SDTgVlGRJ8YFegKUgKOKLP5MlkDw+0g==",
       "dependencies": {
-        "@salesforce/core": "^3.31.9",
+        "@salesforce/core": "^3.31.17",
         "@salesforce/kit": "^1.7.0",
-        "@salesforce/ts-types": "^1.5.20",
+        "@salesforce/ts-types": "^1.7.0",
         "archiver": "^5.3.1",
         "fast-xml-parser": "^3.21.1",
         "got": "^11.8.5",
         "graceful-fs": "^4.2.10",
         "ignore": "^5.2.0",
         "mime": "2.6.0",
+        "minimatch": "^5.1.0",
         "proxy-agent": "^5.0.0",
         "proxy-from-env": "^1.1.0",
         "unzipper": "0.10.11"
       },
       "engines": {
         "node": ">=14.0.0"
+      }
+    },
+    "node_modules/@salesforce/source-deploy-retrieve/node_modules/brace-expansion": {
+      "version": "2.0.1",
+      "resolved": "https://registry.npmjs.org/brace-expansion/-/brace-expansion-2.0.1.tgz",
+      "integrity": "sha512-XnAIvQ8eM+kC6aULx6wuQiwVsnzsi9d3WxzV3FpWTGA19F621kwdbsAcFKXgKUHZWsy+mY6iL1sHTxWEFCytDA==",
+      "dependencies": {
+        "balanced-match": "^1.0.0"
+      }
+    },
+    "node_modules/@salesforce/source-deploy-retrieve/node_modules/minimatch": {
+      "version": "5.1.0",
+      "resolved": "https://registry.npmjs.org/minimatch/-/minimatch-5.1.0.tgz",
+      "integrity": "sha512-9TPBGGak4nHfGZsPBohm9AWg6NoT7QTCehS3BIJABslyZbzxfV78QM2Y6+i741OPZIafFAaiiEMh5OyIrJPgtg==",
+      "dependencies": {
+        "brace-expansion": "^2.0.1"
+      },
+      "engines": {
+        "node": ">=10"
       }
     },
     "node_modules/@salesforce/source-tracking": {
@@ -1234,9 +1287,9 @@
       }
     },
     "node_modules/@salesforce/ts-types": {
-      "version": "1.5.21",
-      "resolved": "https://registry.npmjs.org/@salesforce/ts-types/-/ts-types-1.5.21.tgz",
-      "integrity": "sha512-qG8r8WOzqpFOHaH3EGU3IwGrY/pSv9NQp4B0wGxOuPDBbraXVvd3KhWVStxaLGKBkJClJ7/+t+iCSP82sEiGcg==",
+      "version": "1.7.0",
+      "resolved": "https://registry.npmjs.org/@salesforce/ts-types/-/ts-types-1.7.0.tgz",
+      "integrity": "sha512-8bLGBZCk7T/tkfXP66r5Pkhn3CjfNQIOy6B0Z1rvam5RgqWtYYcubF7eSLSj7bop/q7tA8+R6bNJmjATX6hTqA==",
       "dependencies": {
         "tslib": "^2.2.0"
       }
@@ -10190,9 +10243,9 @@
       }
     },
     "@oclif/core": {
-      "version": "1.19.0",
-      "resolved": "https://registry.npmjs.org/@oclif/core/-/core-1.19.0.tgz",
-      "integrity": "sha512-4R087E3TAG6Q9cvr+4wnlryHbciioXkZmUF/Qmc08dReoFus1BIfwtR5kUa/thNmQBw5oeGnrxnl9yA/TaxAmA==",
+      "version": "1.20.2",
+      "resolved": "https://registry.npmjs.org/@oclif/core/-/core-1.20.2.tgz",
+      "integrity": "sha512-c6CpDbDPS9UuKwGoajzsjrjfnwQywWEV3WI5FDvb87h0/WW2tGf1QwHUWgdKOojafEcMAa9DnP5j+mXdUTtpCg==",
       "requires": {
         "@oclif/linewrap": "^1.0.0",
         "@oclif/screen": "^3.0.2",
@@ -10536,13 +10589,13 @@
       }
     },
     "@salesforce/command": {
-      "version": "5.2.13",
-      "resolved": "https://registry.npmjs.org/@salesforce/command/-/command-5.2.13.tgz",
-      "integrity": "sha512-+7+ZWjB3kQqJtcJpqiSrhW8mclgEmy+d26kDch0YUCxhUvoWQjCk23D4jDkZrFPJrv7sudeQXLSosqEIGppF3w==",
+      "version": "5.2.18",
+      "resolved": "https://registry.npmjs.org/@salesforce/command/-/command-5.2.18.tgz",
+      "integrity": "sha512-kG6lZHZ6fzihTDCZnsEG65Tv9aXcCqypUBaKKpOHo1vD54tCH1w905YAoncJVp76jZFMh6CbOmPhssk1psVY+A==",
       "requires": {
-        "@oclif/core": "^1.18.0",
-        "@oclif/test": "^2.2.0",
-        "@salesforce/core": "^3.31.9",
+        "@oclif/core": "^1.20.0",
+        "@oclif/test": "^2.2.4",
+        "@salesforce/core": "^3.31.17",
         "@salesforce/kit": "^1.6.1",
         "@salesforce/ts-types": "^1.5.21",
         "chalk": "^2.4.2"
@@ -10600,9 +10653,9 @@
       }
     },
     "@salesforce/core": {
-      "version": "3.31.12",
-      "resolved": "https://registry.npmjs.org/@salesforce/core/-/core-3.31.12.tgz",
-      "integrity": "sha512-vkH41UlNvbnpqHcLu31fnq1UmeG8ZUGlqQYYhZGKpKe8eczWu52h5DdE61Bm32bwAzR+aJx4nvE6RIVZvPZlrw==",
+      "version": "3.31.17",
+      "resolved": "https://registry.npmjs.org/@salesforce/core/-/core-3.31.17.tgz",
+      "integrity": "sha512-rn3AYyePp3m1+IH+KVi+DWwMPcAPDYFiUxyJLh+Jr2hNj9i79eQBcUix6wunK3HaVz0N6Tm5FGIpjqfEVsU0cA==",
       "requires": {
         "@salesforce/bunyan": "^2.0.0",
         "@salesforce/kit": "^1.7.0",
@@ -10650,11 +10703,11 @@
       }
     },
     "@salesforce/kit": {
-      "version": "1.7.0",
-      "resolved": "https://registry.npmjs.org/@salesforce/kit/-/kit-1.7.0.tgz",
-      "integrity": "sha512-AxJi7W9skYEVQrZMGyWtG3xOOLzdRu7638Hlea3gtPdMpMRc0aB1Nvpg7Ru+VLtULNhXnnQ3nXesDl0d2TA04w==",
+      "version": "1.7.1",
+      "resolved": "https://registry.npmjs.org/@salesforce/kit/-/kit-1.7.1.tgz",
+      "integrity": "sha512-XbLtEgMNBGZqtY/OldEru+LzASS3o37MZ6eNlSG19eAroGqFdlr4pzZUD/UaWSt6E0s0arj4IwAP5/hQLbrBZw==",
       "requires": {
-        "@salesforce/ts-types": "^1.5.21",
+        "@salesforce/ts-types": "^1.7.0",
         "shx": "^0.3.3",
         "tslib": "^2.2.0"
       }
@@ -10680,12 +10733,12 @@
       }
     },
     "@salesforce/plugin-auth": {
-      "version": "2.2.15",
-      "resolved": "https://registry.npmjs.org/@salesforce/plugin-auth/-/plugin-auth-2.2.15.tgz",
-      "integrity": "sha512-9SrG7WnaG6M8zhM4O6cDYul/wszSPVWmWMtTj4uVb5kXSeCLQINGVt0WsZMuTjMUQlceIoxe0CQ6hfoWSSrIZA==",
+      "version": "2.2.19",
+      "resolved": "https://registry.npmjs.org/@salesforce/plugin-auth/-/plugin-auth-2.2.19.tgz",
+      "integrity": "sha512-TxKxDOmakZYYXq9stgjDbtbpVr4T4MmWjJD5J5FLv2vtOduoepSdE/gzKhET/JQgZiUzpiwEIcQrXIqXARkfNg==",
       "requires": {
-        "@oclif/core": "^1.18.0",
-        "@salesforce/command": "^5.2.13",
+        "@oclif/core": "^1.20.0",
+        "@salesforce/command": "^5.2.17",
         "@salesforce/core": "^3.31.10",
         "@salesforce/kit": "^1.7.0",
         "chalk": "^4.1.2",
@@ -10717,28 +10770,53 @@
       }
     },
     "@salesforce/plugin-community": {
-      "version": "2.0.10",
-      "resolved": "https://registry.npmjs.org/@salesforce/plugin-community/-/plugin-community-2.0.10.tgz",
-      "integrity": "sha512-UaYj/+EzxSs2QcpWe3PTKBpBPJMDhUG0BJdb3vzlvYiryyKOpZgVuoEkgzZoWcMwFq2n+vwhvldsWw7FsopyKQ==",
+      "version": "2.0.14",
+      "resolved": "https://registry.npmjs.org/@salesforce/plugin-community/-/plugin-community-2.0.14.tgz",
+      "integrity": "sha512-JxwBC+KuoO2dIftde54ycRoaVsqlCrDvCMeXnjrxqBaXOFqespTIVoOPXfBK0+C8niZH00AxlYWwVNgVi/eoCQ==",
       "requires": {
-        "@oclif/core": "^1.18.0",
-        "@salesforce/command": "^5.2.12",
-        "@salesforce/core": "^3.31.10",
+        "@oclif/core": "^1.19.1",
+        "@salesforce/command": "^5.2.13",
+        "@salesforce/core": "^3.31.17",
         "tslib": "^2"
       }
     },
+    "@salesforce/plugin-org": {
+      "version": "2.2.11",
+      "resolved": "https://registry.npmjs.org/@salesforce/plugin-org/-/plugin-org-2.2.11.tgz",
+      "integrity": "sha512-IAmUVMhL4MV/yRGKJKotSv6SnNFoh40ySamYKdb68U2/HV8CPYIocSxXv1458bYr9AZ3F9gXof9SU7AtrHYM5g==",
+      "requires": {
+        "@oclif/core": "^1.20.0",
+        "@salesforce/command": "^5.2.12",
+        "@salesforce/core": "^3.31.17",
+        "@salesforce/kit": "^1.6.1",
+        "open": "8.4.0",
+        "tslib": "^2"
+      },
+      "dependencies": {
+        "open": {
+          "version": "8.4.0",
+          "resolved": "https://registry.npmjs.org/open/-/open-8.4.0.tgz",
+          "integrity": "sha512-XgFPPM+B28FtCCgSb9I+s9szOC1vZRSwgWsRUA5ylIxRTgKozqjOCrVOqGsYABPYK5qnfqClxZTFBa8PKt2v6Q==",
+          "requires": {
+            "define-lazy-prop": "^2.0.0",
+            "is-docker": "^2.1.1",
+            "is-wsl": "^2.2.0"
+          }
+        }
+      }
+    },
     "@salesforce/plugin-source": {
-      "version": "2.0.25",
-      "resolved": "https://registry.npmjs.org/@salesforce/plugin-source/-/plugin-source-2.0.25.tgz",
-      "integrity": "sha512-X68CreUcEcnplprWOlrtnDyKkILY3GJLZU++2UGvK4Uo8ayTUrQ4odG6dmT8wkEnskgMVr58GtrC4L1EOoDFgw==",
+      "version": "2.3.0",
+      "resolved": "https://registry.npmjs.org/@salesforce/plugin-source/-/plugin-source-2.3.0.tgz",
+      "integrity": "sha512-rVTdsjVCIBb3iD82aDgs65qSnwSBjwu30IayNZpeXAoS3fZCUttUoaKWQiZA7RmfT79ubuc6N2IJWNCfImz9Ew==",
       "requires": {
         "@oclif/core": "^1.18.0",
         "@oclif/plugin-help": "^3.3.1",
         "@salesforce/apex-node": "^1.3.0",
-        "@salesforce/command": "^5.2.1",
+        "@salesforce/command": "^5.2.13",
         "@salesforce/core": "^3.26.2",
-        "@salesforce/kit": "^1.6.0",
-        "@salesforce/source-deploy-retrieve": "^7.0.1",
+        "@salesforce/kit": "^1.7.1",
+        "@salesforce/source-deploy-retrieve": "^7.5.0",
         "@salesforce/source-tracking": "^2.2.10",
         "chalk": "^4.1.2",
         "got": "^11.8.3",
@@ -10795,22 +10873,41 @@
       "integrity": "sha512-XWohlOT2oQDqAJH00OXS3f2MGjkwZ6pr4emnnkHSQbg7UdGW0rvGpEnRKqBbDUfZ4K5YKSo9Gj216ZtaP3JLXg=="
     },
     "@salesforce/source-deploy-retrieve": {
-      "version": "7.0.1",
-      "resolved": "https://registry.npmjs.org/@salesforce/source-deploy-retrieve/-/source-deploy-retrieve-7.0.1.tgz",
-      "integrity": "sha512-gvgq/ymdfz+CnHWVcs6p9h+GT9MKUI12Kdis8MxZ500mcuKzoCysIrWeZhaHAobroXNO9uxYf3hPOxBaXKQ6UQ==",
+      "version": "7.5.1",
+      "resolved": "https://registry.npmjs.org/@salesforce/source-deploy-retrieve/-/source-deploy-retrieve-7.5.1.tgz",
+      "integrity": "sha512-qAPR4eJxjRhumeM0ZWRHhHzJ17HL8DwMSj4gpFEF5jMb6r8ynzGpJv3SDTgVlGRJ8YFegKUgKOKLP5MlkDw+0g==",
       "requires": {
-        "@salesforce/core": "^3.31.9",
+        "@salesforce/core": "^3.31.17",
         "@salesforce/kit": "^1.7.0",
-        "@salesforce/ts-types": "^1.5.20",
+        "@salesforce/ts-types": "^1.7.0",
         "archiver": "^5.3.1",
         "fast-xml-parser": "^3.21.1",
         "got": "^11.8.5",
         "graceful-fs": "^4.2.10",
         "ignore": "^5.2.0",
         "mime": "2.6.0",
+        "minimatch": "^5.1.0",
         "proxy-agent": "^5.0.0",
         "proxy-from-env": "^1.1.0",
         "unzipper": "0.10.11"
+      },
+      "dependencies": {
+        "brace-expansion": {
+          "version": "2.0.1",
+          "resolved": "https://registry.npmjs.org/brace-expansion/-/brace-expansion-2.0.1.tgz",
+          "integrity": "sha512-XnAIvQ8eM+kC6aULx6wuQiwVsnzsi9d3WxzV3FpWTGA19F621kwdbsAcFKXgKUHZWsy+mY6iL1sHTxWEFCytDA==",
+          "requires": {
+            "balanced-match": "^1.0.0"
+          }
+        },
+        "minimatch": {
+          "version": "5.1.0",
+          "resolved": "https://registry.npmjs.org/minimatch/-/minimatch-5.1.0.tgz",
+          "integrity": "sha512-9TPBGGak4nHfGZsPBohm9AWg6NoT7QTCehS3BIJABslyZbzxfV78QM2Y6+i741OPZIafFAaiiEMh5OyIrJPgtg==",
+          "requires": {
+            "brace-expansion": "^2.0.1"
+          }
+        }
       }
     },
     "@salesforce/source-tracking": {
@@ -10827,9 +10924,9 @@
       }
     },
     "@salesforce/ts-types": {
-      "version": "1.5.21",
-      "resolved": "https://registry.npmjs.org/@salesforce/ts-types/-/ts-types-1.5.21.tgz",
-      "integrity": "sha512-qG8r8WOzqpFOHaH3EGU3IwGrY/pSv9NQp4B0wGxOuPDBbraXVvd3KhWVStxaLGKBkJClJ7/+t+iCSP82sEiGcg==",
+      "version": "1.7.0",
+      "resolved": "https://registry.npmjs.org/@salesforce/ts-types/-/ts-types-1.7.0.tgz",
+      "integrity": "sha512-8bLGBZCk7T/tkfXP66r5Pkhn3CjfNQIOy6B0Z1rvam5RgqWtYYcubF7eSLSj7bop/q7tA8+R6bNJmjATX6hTqA==",
       "requires": {
         "tslib": "^2.2.0"
       }
