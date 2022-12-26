@@ -638,9 +638,9 @@
       }
     },
     "node_modules/@oclif/core": {
-      "version": "1.20.4",
-      "resolved": "https://registry.npmjs.org/@oclif/core/-/core-1.20.4.tgz",
-      "integrity": "sha512-giug32M4YhSYNYKQwE1L57/+k5gp1+Bq3/0vKNQmzAY1tizFGhvBJc6GIRZasHjU+xtZLutQvrVrJo7chX3hxg==",
+      "version": "1.22.0",
+      "resolved": "https://registry.npmjs.org/@oclif/core/-/core-1.22.0.tgz",
+      "integrity": "sha512-Bvyi6uFbmpkFl9XUATsGMlqEDGfqMKWL0Mu5VQTuPg7/NIyfygYkaburn11uGkOp0a8yG6fPpyVBfGmztjNPGA==",
       "dependencies": {
         "@oclif/linewrap": "^1.0.0",
         "@oclif/screen": "^3.0.3",
@@ -10282,9 +10282,9 @@
       }
     },
     "@oclif/core": {
-      "version": "1.20.4",
-      "resolved": "https://registry.npmjs.org/@oclif/core/-/core-1.20.4.tgz",
-      "integrity": "sha512-giug32M4YhSYNYKQwE1L57/+k5gp1+Bq3/0vKNQmzAY1tizFGhvBJc6GIRZasHjU+xtZLutQvrVrJo7chX3hxg==",
+      "version": "1.22.0",
+      "resolved": "https://registry.npmjs.org/@oclif/core/-/core-1.22.0.tgz",
+      "integrity": "sha512-Bvyi6uFbmpkFl9XUATsGMlqEDGfqMKWL0Mu5VQTuPg7/NIyfygYkaburn11uGkOp0a8yG6fPpyVBfGmztjNPGA==",
       "requires": {
         "@oclif/linewrap": "^1.0.0",
         "@oclif/screen": "^3.0.3",
