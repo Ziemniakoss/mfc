@@ -10,6 +10,7 @@
       "license": "BSD-3-Clause",
       "dependencies": {
         "@oclif/core": "^2.0.11",
+        "@oclif/plugin-help": "^5.2.4",
         "@oclif/plugin-plugins": "^2.3.0",
         "@salesforce/plugin-apex": "^1.5.1",
         "@salesforce/plugin-auth": "^2.4.2",
@@ -151,12 +152,12 @@
       }
     },
     "node_modules/@commitlint/cli": {
-      "version": "17.4.2",
-      "resolved": "https://registry.npmjs.org/@commitlint/cli/-/cli-17.4.2.tgz",
-      "integrity": "sha512-0rPGJ2O1owhpxMIXL9YJ2CgPkdrFLKZElIZHXDN8L8+qWK1DGH7Q7IelBT1pchXTYTuDlqkOTdh//aTvT3bSUA==",
+      "version": "17.4.3",
+      "resolved": "https://registry.npmjs.org/@commitlint/cli/-/cli-17.4.3.tgz",
+      "integrity": "sha512-IPTS7AZuBHgD0gl24El8HwuDM9zJN9JLa5KmZUQoFD1BQeGGdzAYJOnAr85CeJWpTDok0BGHDL0+4odnH0iTyA==",
       "dependencies": {
         "@commitlint/format": "^17.4.0",
-        "@commitlint/lint": "^17.4.2",
+        "@commitlint/lint": "^17.4.3",
         "@commitlint/load": "^17.4.2",
         "@commitlint/read": "^17.4.2",
         "@commitlint/types": "^17.4.0",
@@ -174,9 +175,9 @@
       }
     },
     "node_modules/@commitlint/config-conventional": {
-      "version": "17.4.2",
-      "resolved": "https://registry.npmjs.org/@commitlint/config-conventional/-/config-conventional-17.4.2.tgz",
-      "integrity": "sha512-JVo1moSj5eDMoql159q8zKCU8lkOhQ+b23Vl3LVVrS6PXDLQIELnJ34ChQmFVbBdSSRNAbbXnRDhosFU+wnuHw==",
+      "version": "17.4.3",
+      "resolved": "https://registry.npmjs.org/@commitlint/config-conventional/-/config-conventional-17.4.3.tgz",
+      "integrity": "sha512-8EsY2iDw74hCk3hIQSg7/E0R8/KtPjnFPZVwmmHxcjhZjkSykmxysefICPDnbI3xgxfov0zwL1WKDHM8zglJdw==",
       "dependencies": {
         "conventional-changelog-conventionalcommits": "^5.0.0"
       },
@@ -245,13 +246,13 @@
       }
     },
     "node_modules/@commitlint/lint": {
-      "version": "17.4.2",
-      "resolved": "https://registry.npmjs.org/@commitlint/lint/-/lint-17.4.2.tgz",
-      "integrity": "sha512-HcymabrdBhsDMNzIv146+ZPNBPBK5gMNsVH+el2lCagnYgCi/4ixrHooeVyS64Fgce2K26+MC7OQ4vVH8wQWVw==",
+      "version": "17.4.3",
+      "resolved": "https://registry.npmjs.org/@commitlint/lint/-/lint-17.4.3.tgz",
+      "integrity": "sha512-GnPsqEYmXIB/MaBhRMzkiDJWyjuLrKad4xoxKO4N6Kc19iqjR4DPc/bl2dxeW9kUmtrAtefOzIEzJAevpA5y2w==",
       "dependencies": {
         "@commitlint/is-ignored": "^17.4.2",
         "@commitlint/parse": "^17.4.2",
-        "@commitlint/rules": "^17.4.2",
+        "@commitlint/rules": "^17.4.3",
         "@commitlint/types": "^17.4.0"
       },
       "engines": {
@@ -348,9 +349,9 @@
       }
     },
     "node_modules/@commitlint/rules": {
-      "version": "17.4.2",
-      "resolved": "https://registry.npmjs.org/@commitlint/rules/-/rules-17.4.2.tgz",
-      "integrity": "sha512-OGrPsMb9Fx3/bZ64/EzJehY9YDSGWzp81Pj+zJiY+r/NSgJI3nUYdlS37jykNIugzazdEXfMtQ10kmA+Kx2pZQ==",
+      "version": "17.4.3",
+      "resolved": "https://registry.npmjs.org/@commitlint/rules/-/rules-17.4.3.tgz",
+      "integrity": "sha512-xHReDfE3Z+O9p1sXeEhPRSk4FifBsC4EbXzvQ4aa0ykQe+n/iZDd4CrFC/Oiv2K9BU4ZnFHak30IbMLa4ks1Rw==",
       "dependencies": {
         "@commitlint/ensure": "^17.4.0",
         "@commitlint/message": "^17.4.2",
@@ -809,9 +810,9 @@
       }
     },
     "node_modules/@oclif/core": {
-      "version": "2.0.11",
-      "resolved": "https://registry.npmjs.org/@oclif/core/-/core-2.0.11.tgz",
-      "integrity": "sha512-BMKkcgKhrn0RfZVaXObpadO80C3hCM9jHaRHwQEb0G/ASo34YAjKXt8hX027Mc4XBmsYeIutJrEMx9GZr0v1Hw==",
+      "version": "2.1.4",
+      "resolved": "https://registry.npmjs.org/@oclif/core/-/core-2.1.4.tgz",
+      "integrity": "sha512-8rPS/gsjLgWp//nraRs5/yf7EkueFHBLRTMUli3yTu88XrQ2czbXIP2HsF2rxmtCqUUfXUTllHfr8OzqBs0Dcw==",
       "dependencies": {
         "@types/cli-progress": "^3.11.0",
         "ansi-escapes": "^4.3.2",
@@ -819,7 +820,7 @@
         "cardinal": "^2.1.1",
         "chalk": "^4.1.2",
         "clean-stack": "^3.0.1",
-        "cli-progress": "^3.10.0",
+        "cli-progress": "^3.11.2",
         "debug": "^4.3.4",
         "ejs": "^3.1.6",
         "fs-extra": "^9.1.0",
@@ -855,7 +856,6 @@
       "version": "5.2.4",
       "resolved": "https://registry.npmjs.org/@oclif/plugin-help/-/plugin-help-5.2.4.tgz",
       "integrity": "sha512-7fVB/M1cslwHJTmyNGGDYBizi54NHcKCxHAbDSD16EbjosKxFwncRylVC/nsMgKZEufMDKZaVYI2lYRY3GHlSQ==",
-      "dev": true,
       "dependencies": {
         "@oclif/core": "^2.0.8"
       },
@@ -864,13 +864,13 @@
       }
     },
     "node_modules/@oclif/plugin-not-found": {
-      "version": "2.3.18",
-      "resolved": "https://registry.npmjs.org/@oclif/plugin-not-found/-/plugin-not-found-2.3.18.tgz",
-      "integrity": "sha512-yUXgdPwjE/JIuWZ23Ge6G5gM+qiw7Baq/26oBq3eusIP6hZuHYeCpwQ96Zy5aHcjm2NSZcMjkZG1jARyr9BzkQ==",
+      "version": "2.3.20",
+      "resolved": "https://registry.npmjs.org/@oclif/plugin-not-found/-/plugin-not-found-2.3.20.tgz",
+      "integrity": "sha512-U93rjsL5Z2AWUtURx6R83tNottH6jAsUIGFBu+ZdM4p3bPOPCg9Kmofca6xudiV7ppWxbG5EejZOUGYcdKa/SA==",
       "dev": true,
       "dependencies": {
-        "@oclif/color": "^1.0.3",
-        "@oclif/core": "^2.0.3",
+        "@oclif/color": "^1.0.4",
+        "@oclif/core": "^2.1.2",
         "fast-levenshtein": "^3.0.0",
         "lodash": "^4.17.21"
       },
@@ -879,12 +879,12 @@
       }
     },
     "node_modules/@oclif/plugin-plugins": {
-      "version": "2.3.0",
-      "resolved": "https://registry.npmjs.org/@oclif/plugin-plugins/-/plugin-plugins-2.3.0.tgz",
-      "integrity": "sha512-VmlLLYE4LCXX2RGNv4ht8AqG9OADvLIE4Kxhm18h5RZ9cMee7U6nrHQeW455lh/idnWC2XT7bHgJBv2kgYxSiQ==",
+      "version": "2.3.2",
+      "resolved": "https://registry.npmjs.org/@oclif/plugin-plugins/-/plugin-plugins-2.3.2.tgz",
+      "integrity": "sha512-jq/ik7A7bCO/oQp0/Znnpu8/JBXifAQ2OF2KmswbNYt7EpsLqz2DaI/CvkrXRSb+Edzx4Xx3usEgSyocVN/u2A==",
       "dependencies": {
-        "@oclif/color": "^1.0.3",
-        "@oclif/core": "^2.0.3",
+        "@oclif/color": "^1.0.4",
+        "@oclif/core": "^2.1.1",
         "chalk": "^4.1.2",
         "debug": "^4.3.4",
         "fs-extra": "^9.0",
@@ -900,12 +900,12 @@
       }
     },
     "node_modules/@oclif/plugin-warn-if-update-available": {
-      "version": "2.0.26",
-      "resolved": "https://registry.npmjs.org/@oclif/plugin-warn-if-update-available/-/plugin-warn-if-update-available-2.0.26.tgz",
-      "integrity": "sha512-eMwDOzxPdN1X0y5G0W/GJXFRUvevT6gOrbbRLPoboTUwcFRqhFOJ7jCqGUTomeDfMRgAb3O+3bcD64lIb/y+FA==",
+      "version": "2.0.27",
+      "resolved": "https://registry.npmjs.org/@oclif/plugin-warn-if-update-available/-/plugin-warn-if-update-available-2.0.27.tgz",
+      "integrity": "sha512-be6dnM3bhf7r6Jy1rzPjOt5qV5MZtqda4p1krbH9a5Ww6jAsYh6CIeKbIP2zPUFthoejG9wt7UFQt3J110DdMQ==",
       "dev": true,
       "dependencies": {
-        "@oclif/core": "^2.0.8",
+        "@oclif/core": "^2.1.2",
         "chalk": "^4.1.0",
         "debug": "^4.1.0",
         "fs-extra": "^9.0.1",
@@ -927,11 +927,11 @@
       }
     },
     "node_modules/@oclif/test": {
-      "version": "2.3.5",
-      "resolved": "https://registry.npmjs.org/@oclif/test/-/test-2.3.5.tgz",
-      "integrity": "sha512-LxmiatZV7Ph9K2F0Rs0u2d7BODxbfL7qfHE94HwqzaW8uRe20JbGMxH4iGBHFE5Gdod6XIV3o3jHyPXVlz7YZA==",
+      "version": "2.3.6",
+      "resolved": "https://registry.npmjs.org/@oclif/test/-/test-2.3.6.tgz",
+      "integrity": "sha512-n1DGbLzGrrfn/Nm2f8829RcQ2iOd9EXDZxx0U9WswpJS75P4N9Py4tYBhfX+wGU7CaJDfYxnqQHB0YuRYDBwrw==",
       "dependencies": {
-        "@oclif/core": "^2.0.8",
+        "@oclif/core": "^2.1.2",
         "fancy-test": "^2.0.12"
       },
       "engines": {
@@ -1312,14 +1312,14 @@
       }
     },
     "node_modules/@salesforce/plugin-auth": {
-      "version": "2.4.2",
-      "resolved": "https://registry.npmjs.org/@salesforce/plugin-auth/-/plugin-auth-2.4.2.tgz",
-      "integrity": "sha512-NtlDzRIfUTJ5haBSXNLZpXQKnWADxboD0G7DJWUOr674uncy+dguCs4PFM50tjTNHLpIhSK1qtJcWoc0SJuG3Q==",
+      "version": "2.5.0",
+      "resolved": "https://registry.npmjs.org/@salesforce/plugin-auth/-/plugin-auth-2.5.0.tgz",
+      "integrity": "sha512-YRChKhp9y5104ZIDHuSUsA+b+kAinmdGypvSnx7AnIHYE1gLWesI6UcZ9sm+RGrKwI/jDo85QSZQTr9/z4Y9zQ==",
       "dependencies": {
         "@oclif/core": "^2.0.7",
-        "@salesforce/command": "^5.2.43",
-        "@salesforce/core": "^3.32.12",
-        "@salesforce/kit": "^1.8.2",
+        "@salesforce/core": "^3.33.1",
+        "@salesforce/kit": "^1.8.3",
+        "@salesforce/sf-plugins-core": "^2.1.0",
         "chalk": "^4.1.2",
         "fs-extra": "^10.0.1",
         "open": "^8.2.1",
@@ -1343,13 +1343,13 @@
       }
     },
     "node_modules/@salesforce/plugin-community": {
-      "version": "2.2.1",
-      "resolved": "https://registry.npmjs.org/@salesforce/plugin-community/-/plugin-community-2.2.1.tgz",
-      "integrity": "sha512-PjyWzMUHclkStGut7KsB/Bgs/pB9fuHyeMvZSakwgwMR9bJANMeao1EK2sbdNVIWtx8kyNPcvbwD2k74b2Z+ng==",
+      "version": "2.2.3",
+      "resolved": "https://registry.npmjs.org/@salesforce/plugin-community/-/plugin-community-2.2.3.tgz",
+      "integrity": "sha512-3KMRJImun/R8DgFcaP3JHoB1P3S4vlDbHAW1PZX61f8iOaXKpb37h2gyMzlhk9u2J6z7SAOjcWZc3rHT56QaCA==",
       "dependencies": {
-        "@oclif/core": "^2.0.7",
+        "@oclif/core": "^2.1.1",
         "@salesforce/core": "^3.33.1",
-        "@salesforce/kit": "^1.8.0",
+        "@salesforce/kit": "^1.8.5",
         "@salesforce/sf-plugins-core": "^2.0.1",
         "tslib": "^2"
       },
@@ -1358,45 +1358,29 @@
       }
     },
     "node_modules/@salesforce/plugin-org": {
-      "version": "2.3.2",
-      "resolved": "https://registry.npmjs.org/@salesforce/plugin-org/-/plugin-org-2.3.2.tgz",
-      "integrity": "sha512-JUYYytUfKtCDXmc7QpXg8T01D1AzSXwJFNGtraPinrF8BywZPQ7gpWCg1yI2ECsVlsDRwPpE8mdQZJWt0181VQ==",
+      "version": "2.3.4",
+      "resolved": "https://registry.npmjs.org/@salesforce/plugin-org/-/plugin-org-2.3.4.tgz",
+      "integrity": "sha512-dnGty5OgbdT3EJ782+1y6qh1b8Ap1bjoVygkhfN5Nh8lvyysi+MYnLKSVlupRBNUtSKymu+g8SC1T2/q/loXcA==",
       "dependencies": {
-        "@oclif/core": "^2.0.7",
+        "@oclif/core": "^2.1.0",
         "@salesforce/core": "^3.33.1",
-        "@salesforce/kit": "^1.8.3",
-        "@salesforce/sf-plugins-core": "^2.0.1",
-        "open": "8.4.0",
+        "@salesforce/kit": "^1.8.5",
+        "@salesforce/sf-plugins-core": "^2.1.1",
+        "open": "8.4.1",
         "tslib": "^2"
       },
       "engines": {
         "node": ">=14.0.0"
       }
     },
-    "node_modules/@salesforce/plugin-org/node_modules/open": {
-      "version": "8.4.0",
-      "resolved": "https://registry.npmjs.org/open/-/open-8.4.0.tgz",
-      "integrity": "sha512-XgFPPM+B28FtCCgSb9I+s9szOC1vZRSwgWsRUA5ylIxRTgKozqjOCrVOqGsYABPYK5qnfqClxZTFBa8PKt2v6Q==",
-      "dependencies": {
-        "define-lazy-prop": "^2.0.0",
-        "is-docker": "^2.1.1",
-        "is-wsl": "^2.2.0"
-      },
-      "engines": {
-        "node": ">=12"
-      },
-      "funding": {
-        "url": "https://github.com/sponsors/sindresorhus"
-      }
-    },
     "node_modules/@salesforce/plugin-source": {
-      "version": "2.5.1",
-      "resolved": "https://registry.npmjs.org/@salesforce/plugin-source/-/plugin-source-2.5.1.tgz",
-      "integrity": "sha512-gNlo/Giullqu1rYqWLvaeWVN3RnBaTsk3ajYBDfT/+R9YNo4VLWHy1Mw4/ZyOZEJ9u+Gicml8b17sttZbUjB0g==",
+      "version": "2.5.3",
+      "resolved": "https://registry.npmjs.org/@salesforce/plugin-source/-/plugin-source-2.5.3.tgz",
+      "integrity": "sha512-Cp/dic8yt7NZRg1Oy1XVNgjIKH+0afJJMmh7iV8u0AEYV3ZhATGeGQ9CgP1k66tW/umRkfW/SdiijuI56WCgpA==",
       "dependencies": {
         "@oclif/core": "^2.0.8",
         "@salesforce/apex-node": "^1.6.0",
-        "@salesforce/command": "^5.2.35",
+        "@salesforce/command": "^5.3.0",
         "@salesforce/core": "^3.32.14",
         "@salesforce/kit": "^1.8.3",
         "@salesforce/source-deploy-retrieve": "^7.9.1",
@@ -1419,11 +1403,11 @@
       "integrity": "sha512-EKFBURBuON7cj8XZCW+ybeSRRw7wUP1XUXZVHzFgx8KiYmSeGiRHBYbDjQOsQMho2uOLsTozMPEt2ehYnji0YA=="
     },
     "node_modules/@salesforce/sf-plugins-core": {
-      "version": "2.0.2",
-      "resolved": "https://registry.npmjs.org/@salesforce/sf-plugins-core/-/sf-plugins-core-2.0.2.tgz",
-      "integrity": "sha512-rzpwhKCDl9edbMWXktEoBRMZjGSF7bqk3ujiAF5xDtgb7V3crqkpRmSfvv5rQKRC0RIec/nBmmrFRTjAkl9gEA==",
+      "version": "2.1.2",
+      "resolved": "https://registry.npmjs.org/@salesforce/sf-plugins-core/-/sf-plugins-core-2.1.2.tgz",
+      "integrity": "sha512-XOLmtRDIQQbfewegxqWAOYRD0lypVyjl39XBrfu65qenfDfUXYcEDvDcWJFCnL+IwvUe4VhapFqmjZLMxG+YWA==",
       "dependencies": {
-        "@oclif/core": "^2.0.10",
+        "@oclif/core": "^2.1.1",
         "@salesforce/core": "^3.33.1",
         "@salesforce/kit": "^1.8.3",
         "@salesforce/ts-types": "^1.7.1",
@@ -1432,9 +1416,9 @@
       }
     },
     "node_modules/@salesforce/source-deploy-retrieve": {
-      "version": "7.9.1",
-      "resolved": "https://registry.npmjs.org/@salesforce/source-deploy-retrieve/-/source-deploy-retrieve-7.9.1.tgz",
-      "integrity": "sha512-sWQmW35irfEYqFlc6kCo+pRimN9X5d+cCnOJ5zTRWvALcCDce5j/OhPb8qPVMWV4sciHO+RbdMYHJAMppOXrJg==",
+      "version": "7.9.2",
+      "resolved": "https://registry.npmjs.org/@salesforce/source-deploy-retrieve/-/source-deploy-retrieve-7.9.2.tgz",
+      "integrity": "sha512-DTxcmdvDa4vGNzkSGwZiQTICILCdHf2E2PG51WQmwJiOHuAYggY+yi87W9rBq/PQ6lx9yoerGF3CO+taKXADhA==",
       "dependencies": {
         "@salesforce/core": "^3.33.1",
         "@salesforce/kit": "^1.8.4",
@@ -1445,7 +1429,7 @@
         "graceful-fs": "^4.2.10",
         "ignore": "^5.2.4",
         "mime": "2.6.0",
-        "minimatch": "^5.1.2",
+        "minimatch": "^5.1.6",
         "proxy-agent": "^5.0.0",
         "proxy-from-env": "^1.1.0",
         "unzipper": "0.10.11"
@@ -2024,9 +2008,9 @@
       }
     },
     "node_modules/aws-sdk": {
-      "version": "2.1312.0",
-      "resolved": "https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.1312.0.tgz",
-      "integrity": "sha512-NG6ERxxxU6p+CDWrq7wLinp0siKRcCNN98iY0qr/2WKZbz5JCtDyiQV/l+6jLmNKP5qIT5z++jnDy9cgNP6ICQ==",
+      "version": "2.1313.0",
+      "resolved": "https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.1313.0.tgz",
+      "integrity": "sha512-8GMdtV2Uch3HL2c6+P3lNZFTcg/fqq9L3EWYRLb6ljCZvWKTssjdkjSJFDyTReNgeiKV224YRPYQbKpOEz4flQ==",
       "dev": true,
       "dependencies": {
         "buffer": "4.9.2",
@@ -2862,11 +2846,11 @@
       }
     },
     "node_modules/commitlint": {
-      "version": "17.4.2",
-      "resolved": "https://registry.npmjs.org/commitlint/-/commitlint-17.4.2.tgz",
-      "integrity": "sha512-1UQecX+vSJHQXTKFMRZmf8EG3BYYjkT26JLe6FTQhu7N67FiWdWbqXMpcQSpqx/kWNz9a+DX2au2e61IH89PDA==",
+      "version": "17.4.3",
+      "resolved": "https://registry.npmjs.org/commitlint/-/commitlint-17.4.3.tgz",
+      "integrity": "sha512-3MGkngRG3x3KY5uKWxgyKK7WU5apelorn4jeJsu8aCotuaoPXYtZX8Ym7a/ZzB19UUuWADnKWVTWBePvweu3aA==",
       "dependencies": {
-        "@commitlint/cli": "^17.4.2",
+        "@commitlint/cli": "^17.4.3",
         "@commitlint/types": "^17.4.0"
       },
       "bin": {
@@ -5821,9 +5805,9 @@
       }
     },
     "node_modules/minimist": {
-      "version": "1.2.7",
-      "resolved": "https://registry.npmjs.org/minimist/-/minimist-1.2.7.tgz",
-      "integrity": "sha512-bzfL1YUZsP41gmu/qjrEk0Q6i2ix/cVeAhbCbqH9u3zYutS1cLg00qhrD0M2MVdCcx4Sc0UpP2eBWo9rotpq6g==",
+      "version": "1.2.8",
+      "resolved": "https://registry.npmjs.org/minimist/-/minimist-1.2.8.tgz",
+      "integrity": "sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==",
       "funding": {
         "url": "https://github.com/sponsors/ljharb"
       }
@@ -9466,9 +9450,9 @@
       }
     },
     "node_modules/yeoman-environment": {
-      "version": "3.13.0",
-      "resolved": "https://registry.npmjs.org/yeoman-environment/-/yeoman-environment-3.13.0.tgz",
-      "integrity": "sha512-eBPpBZCvFzx6yk17x+ZrOHp8ADDv6qHradV+SgdugaQKIy9NjEX5AkbwdTHLOgccSTkQ9rN791xvYOu6OmqjBg==",
+      "version": "3.14.1",
+      "resolved": "https://registry.npmjs.org/yeoman-environment/-/yeoman-environment-3.14.1.tgz",
+      "integrity": "sha512-IjH9lCm0CKbNqH7x59c75feg64bz/WOk72j/wwMRiEQvcD47eKYduJmbyohR9pncmveJw/kkoJy3/OazARk7KA==",
       "dev": true,
       "dependencies": {
         "@npmcli/arborist": "^4.0.4",
@@ -9569,9 +9553,9 @@
       }
     },
     "node_modules/yeoman-generator": {
-      "version": "5.7.0",
-      "resolved": "https://registry.npmjs.org/yeoman-generator/-/yeoman-generator-5.7.0.tgz",
-      "integrity": "sha512-z9ZwgKoDOd+llPDCwn8Ax2l4In5FMhlslxdeByW4AMxhT+HbTExXKEAahsClHSbwZz1i5OzRwLwRIUdOJBr5Bw==",
+      "version": "5.7.1",
+      "resolved": "https://registry.npmjs.org/yeoman-generator/-/yeoman-generator-5.7.1.tgz",
+      "integrity": "sha512-5X9Ep5Zu7gw6JDpahkgCorsz8BUQ0iDbnLO3Ov0UgLc9GedTUMk0a2DMkEspq7+fZHtVcOQ2C/YIbzpDH/5OMg==",
       "dev": true,
       "dependencies": {
         "chalk": "^4.1.0",

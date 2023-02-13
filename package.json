@@ -18,6 +18,7 @@
   ],
   "dependencies": {
     "@oclif/core": "^2.0.11",
+    "@oclif/plugin-help": "^5.2.4",
     "@oclif/plugin-plugins": "^2.3.0",
     "@salesforce/plugin-apex": "^1.5.1",
     "@salesforce/plugin-auth": "^2.4.2",
