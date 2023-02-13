@@ -1,7 +1,7 @@
 # Minimal Force Cli
 
 [![badge with latest npm version](https://img.shields.io/npm/v/@ziemniakoss/mfc)](https://www.npmjs.com/package/@ziemniakoss/mfc)
-![Docker image version tag](https://img.shields.io/docker/v/ziemniakoss/mfc?label=image%20version)
+[![Docker image version tag](https://img.shields.io/docker/v/ziemniakoss/mfc?label=image%20version)](https://hub.docker.com/r/ziemniakoss/mfc)
 [![badge with image size](https://img.shields.io/docker/image-size/ziemniakoss/mfc)](https://hub.docker.com/r/ziemniakoss/mfc)
 
 CLI for Salesforce without plugins that are not needed in CI environments, like plugins for code generation or schema
