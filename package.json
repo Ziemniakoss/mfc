@@ -26,7 +26,7 @@
     "@salesforce/plugin-community": "^2.2.3",
     "@salesforce/plugin-org": "^2.4.1",
     "@salesforce/plugin-source": "^2.5.4",
-    "sfdx-ci-summary-creator": "^2.0.0",
+    "sfdx-ci-summary-creator": "^3.0.0",
     "sfdx-metadata-splitter": "^3.0.2"
   },
   "devDependencies": {

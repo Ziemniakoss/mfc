@@ -17,7 +17,7 @@
         "@salesforce/plugin-community": "^2.2.3",
         "@salesforce/plugin-org": "^2.4.1",
         "@salesforce/plugin-source": "^2.5.4",
-        "sfdx-ci-summary-creator": "^2.0.0",
+        "sfdx-ci-summary-creator": "^3.0.0",
         "sfdx-metadata-splitter": "^3.0.2"
       },
       "bin": {
@@ -8147,10 +8147,11 @@
       "integrity": "sha512-E5LDX7Wrp85Kil5bhZv46j8jOeboKq5JMmYM3gVGdGH8xFpPWXUMsNrlODCrkoxMEeNi/XZIwuRvY4XNwYMJpw=="
     },
     "node_modules/sfdx-ci-summary-creator": {
-      "version": "2.0.0",
-      "resolved": "https://registry.npmjs.org/sfdx-ci-summary-creator/-/sfdx-ci-summary-creator-2.0.0.tgz",
-      "integrity": "sha512-3VhOb3D4CBr2dIwfR1o8XhU//DgOw+NLwO2A3V1XnuX8xv0USBqRjlMws9cI1hoWQvml7OllkG3msyBGHOs2LA==",
+      "version": "3.0.0",
+      "resolved": "https://registry.npmjs.org/sfdx-ci-summary-creator/-/sfdx-ci-summary-creator-3.0.0.tgz",
+      "integrity": "sha512-PFYBZYHoBG77fsy4u4QrQbk7LDY9Enu6F8lDBo2jjTsKBQ3kfQk/+eW6o9QGPPi2m5iiL7k3PNF+2lEwqNTzGQ==",
       "dependencies": {
+        "chalk": "^4.1.2",
         "tslib": "^2.5.0",
         "xml2js": "^0.4.23"
       },
