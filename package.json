@@ -7,6 +7,7 @@
     "mfc": "./bin/run"
   },
   "homepage": "https://github.com/Ziemniakoss/mfc",
+  "readme": "README.md",
   "license": "BSD-3-Clause",
   "main": "dist/index.js",
   "repository": "Ziemniakoss/mfc",
@@ -17,19 +18,19 @@
     "/oclif.manifest.json"
   ],
   "dependencies": {
-    "@oclif/core": "^2.0.11",
+    "@oclif/core": "^2.1.7",
     "@oclif/plugin-help": "^5.2.4",
-    "@oclif/plugin-plugins": "^2.3.0",
+    "@oclif/plugin-plugins": "^2.3.2",
     "@salesforce/plugin-apex": "^1.5.1",
-    "@salesforce/plugin-auth": "^2.4.2",
-    "@salesforce/plugin-community": "^2.2.1",
-    "@salesforce/plugin-org": "^2.3.2",
-    "@salesforce/plugin-source": "^2.5.1",
+    "@salesforce/plugin-auth": "^2.5.1",
+    "@salesforce/plugin-community": "^2.2.3",
+    "@salesforce/plugin-org": "^2.4.1",
+    "@salesforce/plugin-source": "^2.5.4",
     "sfdx-ci-summary-creator": "^2.0.0",
     "sfdx-metadata-splitter": "^3.0.2"
   },
   "devDependencies": {
-    "oclif": "^3.6.3",
+    "oclif": "^3.6.5",
     "shx": "^0.3.4",
     "typescript": "^4.9.5"
   },
