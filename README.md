@@ -1,3 +1,13 @@
+__Warning!__
+
+Due to complications with:
+- lack of time,
+- complications with hooks that sometimes timeout but work in sfdx
+- some breaking change in pnpm
+
+this package (and image) won't be maintained anymore.
+Thanks anyone that used this package!
+
 # Minimal Force Cli
 
 [![badge with latest npm version](https://img.shields.io/npm/v/@ziemniakoss/mfc)](https://www.npmjs.com/package/@ziemniakoss/mfc)
